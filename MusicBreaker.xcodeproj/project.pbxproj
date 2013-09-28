@@ -17,7 +17,6 @@
 		4EB79BC817F748ED00A94862 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EB79BC617F748ED00A94862 /* Main.storyboard */; };
 		4EB79BCB17F748ED00A94862 /* MBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB79BCA17F748ED00A94862 /* MBViewController.m */; };
 		4EB79BCE17F748ED00A94862 /* MBMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB79BCD17F748ED00A94862 /* MBMyScene.m */; };
-		4EB79BD017F748ED00A94862 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB79BCF17F748ED00A94862 /* Spaceship.png */; };
 		4EB79BD217F748ED00A94862 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EB79BD117F748ED00A94862 /* Images.xcassets */; };
 		4EB79BD917F748ED00A94862 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EB79BD817F748ED00A94862 /* XCTest.framework */; };
 		4EB79BDA17F748ED00A94862 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EB79BB217F748ED00A94862 /* Foundation.framework */; };
@@ -53,7 +52,6 @@
 		4EB79BCA17F748ED00A94862 /* MBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBViewController.m; sourceTree = "<group>"; };
 		4EB79BCC17F748ED00A94862 /* MBMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBMyScene.h; sourceTree = "<group>"; };
 		4EB79BCD17F748ED00A94862 /* MBMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBMyScene.m; sourceTree = "<group>"; };
-		4EB79BCF17F748ED00A94862 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		4EB79BD117F748ED00A94862 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4EB79BD717F748ED00A94862 /* MusicBreakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicBreakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EB79BD817F748ED00A94862 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -124,11 +122,8 @@
 				4EB79BC317F748ED00A94862 /* MBAppDelegate.h */,
 				4EB79BC417F748ED00A94862 /* MBAppDelegate.m */,
 				4EB79BC617F748ED00A94862 /* Main.storyboard */,
-				4EB79BC917F748ED00A94862 /* MBViewController.h */,
-				4EB79BCA17F748ED00A94862 /* MBViewController.m */,
-				4EB79BCC17F748ED00A94862 /* MBMyScene.h */,
-				4EB79BCD17F748ED00A94862 /* MBMyScene.m */,
-				4EB79BCF17F748ED00A94862 /* Spaceship.png */,
+				4EB79BEF17F7491000A94862 /* Controllers */,
+				4EB79BEE17F748FE00A94862 /* Scenes */,
 				4EB79BD117F748ED00A94862 /* Images.xcassets */,
 				4EB79BBB17F748ED00A94862 /* Supporting Files */,
 			);
@@ -162,6 +157,24 @@
 				4EB79BE117F748ED00A94862 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4EB79BEE17F748FE00A94862 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				4EB79BCC17F748ED00A94862 /* MBMyScene.h */,
+				4EB79BCD17F748ED00A94862 /* MBMyScene.m */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		4EB79BEF17F7491000A94862 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4EB79BC917F748ED00A94862 /* MBViewController.h */,
+				4EB79BCA17F748ED00A94862 /* MBViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,7 +256,6 @@
 			files = (
 				4EB79BBF17F748ED00A94862 /* InfoPlist.strings in Resources */,
 				4EB79BD217F748ED00A94862 /* Images.xcassets in Resources */,
-				4EB79BD017F748ED00A94862 /* Spaceship.png in Resources */,
 				4EB79BC817F748ED00A94862 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
