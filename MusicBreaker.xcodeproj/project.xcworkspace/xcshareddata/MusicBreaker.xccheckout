@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6F455058-E8E6-4E27-B426-64025ABC6F38</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MusicBreaker</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B71CCD43-648F-4EEE-AC33-8E364C033E1C</key>
+		<string>ssh://github.com/TosinAF/MusicBreaker.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MusicBreaker.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B71CCD43-648F-4EEE-AC33-8E364C033E1C</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/TosinAF/MusicBreaker.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B71CCD43-648F-4EEE-AC33-8E364C033E1C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B71CCD43-648F-4EEE-AC33-8E364C033E1C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MusicBreaker</string>
+		</dict>
+	</array>
+</dict>
+</plist>
