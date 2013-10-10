@@ -1,7 +1,7 @@
 MusicBreaker
 ======
 
-![alt tag](https://raw.github.com/TosinAF/MusicBreaker/master/screenshot.png)
+![alt tag](https://raw.github.com/TosinAF/MusicBreaker/master/Screenshot.png)
 
 
 BrickBreaker meets Audiosurf!!!
